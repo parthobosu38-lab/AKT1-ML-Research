@@ -1,0 +1,150 @@
+{
+  "input_csv": "/content/Active_Smiles.csv",
+  "input_smiles_column": "SMILES",
+  "input_columns": [
+    "SMILES"
+  ],
+  "raw_input_smiles": 1445,
+  "valid_unique_input_smiles": 1445,
+  "invalid_input_smiles": 0,
+  "rejected_cxsmiles_notation_smiles": 0,
+  "tl_epochs": 10,
+  "rl_steps": 500,
+  "rl_reference_smiles": 1445,
+  "reinvent_git_ref": "main",
+  "reinvent_commit": "04de385d33f95e97f3960b5c4184a0c0bd3ad7f8",
+  "device": "cuda:0",
+  "elapsed_minutes": 154.93,
+  "target_unique": 5200000,
+  "unique_written": 4037029,
+  "target_high_activity": 10000,
+  "high_activity_tanimoto_threshold": 0.7,
+  "high_activity_written": 3679,
+  "sampling_batches": 104,
+  "total_requested_samples": 5200000,
+  "generated_rows_read": 5038024,
+  "valid_rows_read": 5038024,
+  "invalid_rows_read": 0,
+  "duplicates_removed": 1000995,
+  "novel_vs_input": 4036889,
+  "final_temperature": 1.0,
+  "stopped_early_reason": null,
+  "unique_file": "/content/reinvent4_akt1_unique_generation/unique_generated_5200000.csv",
+  "unique_count": 4037029,
+  "descriptor_sample_size": 50000,
+  "novelty_fraction_vs_input": 1.0,
+  "murcko_scaffold_count_in_sample": 42202,
+  "top_20_murcko_scaffolds_in_sample": [
+    [
+      "O=C(NCc1ccccc1)c1ccccc1",
+      92
+    ],
+    [
+      "c1ccccc1",
+      91
+    ],
+    [
+      "O=C(NCc1ccccc1)c1ccc(-c2cn[nH]c2)cc1",
+      78
+    ],
+    [
+      "O=C(Nc1ccccc1)c1ccccc1",
+      59
+    ],
+    [
+      "c1ccc(-c2ccccn2)cc1",
+      59
+    ],
+    [
+      "O=C(NC1CCCNC1c1ccccc1)c1ccccc1",
+      51
+    ],
+    [
+      "c1ccc(-c2ccccc2)cc1",
+      46
+    ],
+    [
+      "O=C(Nc1ccccc1)NC1CCCc2c1cnn2-c1ccccc1",
+      42
+    ],
+    [
+      "O=C(NC1CNCCC1c1ccccc1)c1ccccc1",
+      41
+    ],
+    [
+      "O=C(NCc1ccccc1)c1ccc(-c2cn[nH]c2)cn1",
+      40
+    ],
+    [
+      "c1ccc(-c2cccnc2)cc1",
+      39
+    ],
+    [
+      "O=C(NC1CCCc2c1cnn2-c1ccccc1)c1ccccc1",
+      38
+    ],
+    [
+      "O=C(NC1CCCNC1)c1cccc(-c2ccccc2)c1",
+      37
+    ],
+    [
+      "O=C(NCc1ccccc1)Nc1cccnc1",
+      35
+    ],
+    [
+      "O=C(NCCc1ccccc1)c1ccccc1",
+      35
+    ],
+    [
+      "O=C(NCc1ccccc1)Nc1ccccc1",
+      33
+    ],
+    [
+      "O=C(NCc1ccccc1)c1cccc(-c2ccccn2)c1",
+      33
+    ],
+    [
+      "c1ccc(-c2cn[nH]c2)cc1",
+      29
+    ],
+    [
+      "O=C(NCCc1nc(-c2ccccc2)cs1)c1ccccc1",
+      29
+    ],
+    [
+      "O=C(NCc1ccccc1)c1cccc(-c2ccccc2)n1",
+      28
+    ]
+  ],
+  "molecular_weight": {
+    "min": 114.06,
+    "median": 384.274,
+    "mean": 386.6723,
+    "max": 787.964
+  },
+  "slogp": {
+    "min": -5.2764,
+    "median": 3.2564,
+    "mean": 3.2449,
+    "max": 9.4079
+  },
+  "tpsa": {
+    "min": 0.0,
+    "median": 70.59,
+    "mean": 71.8084,
+    "max": 325.18
+  },
+  "qed": {
+    "min": 0.0217,
+    "median": 0.7014,
+    "mean": 0.6843,
+    "max": 0.9484
+  },
+  "max_tanimoto_to_input_random_sample": {
+    "min": 0.0933,
+    "median": 0.275,
+    "mean": 0.2889,
+    "max": 1.0
+  },
+  "max_tanimoto_sample_size": 50000
+}
