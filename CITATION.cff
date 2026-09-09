@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with placeholders.
+# Fill in the bracketed fields, then validate at https://citation-file-format.github.io/cff-initializer-javascript/
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "AKT1 Kinase Inhibitor Discovery Pipeline: Hybrid ML Screening, Generative Design, and Structure-Based Validation"
+version: 1.0.0
+date-released: 2026-09-09
+authors:
+  - family-names: "Partho Bosu"
+    given-names: "Partho"
+    orcid: "https://orcid.org/0009-0008-3201-1595"
+    affiliation: "NIT Durgapur"
+repository-code: "https://github.com/parthobosu38-lab/AKT1-ML-Research.git"
+license: MIT
+keywords:
+  - AKT1
+  - kinase inhibitor
+  - virtual screening
+  - machine learning
+  - drug discovery
+  - REINVENT4
+  - molecular docking
+  - cheminformatics
+
+
